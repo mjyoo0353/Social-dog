@@ -1,3 +1,4 @@
+!!
 ![logo](./src/main/webapp/resources/images/SocialDog_logo_yellow.png)
 
 # SocialDog
