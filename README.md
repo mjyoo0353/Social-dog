@@ -1,126 +1,142 @@
-!!
-![logo](./src/main/webapp/resources/images/SocialDog_logo_yellow.png)
 
-# SocialDog
-이웃 강아지와 함께 산책을 합시다!
+# <img width="250" alt="image" src="https://github.com/user-attachments/assets/8bb3f63f-ca2c-48b1-84d0-f2e854bc37e3">
+#### Set up a walking meetup with neighboring dogs on SocialDog and go for a walk together!
+A responsive web application designed to enhance dogs' socialization and encourage them to make friends, while enabling dog owners to schedule walks with other users based on location and facilitating social interactions for both dogs and their owner.
+</br>
 
-1. [**서비스 소개**](#-서비스-소개)
-2. [**기술 스택**](#-기술-스택)
-3. [**주요 페이지 안내**](#-주요-페이지-안내)
-4. [**향후 보완점**](#-향후-보완점)
-5. [**프로젝트 기간**](#-프로젝트-기간)
-6. [**팀 잭팟**](#-팀-잭팟)
+## 🗂️ Table of Contents
+-  [Project Introduction](#0)
+-  [Technologies, Libraries, and tools Used](#1)
+-  [Key Features](#2)
+-  [ER Diagram](#3)
+-  [My Role](#4)
+-  [Overview of Key Pages](#5)
+</br>
+
+----
+<h2 id="0">
+    <b>📌 Project Introduction</b>
+</h2>
+
+- Duration: 10.31.23 ~ 12.08.23
+- Team Project - Backend Team (5 members)
+- #### The purpose behind this platform
+> Every year, the number of people who consider their dogs as part of the family continues to grow. </br>
+However, there are practical difficulties when it comes to meeting neighboring dogs and fostering social skills. </br>
+Therefore, a platform is needed where pets can meet other dogs in the neighborhood to develop their social skills, and ultimately, interact with the people in the community as well.
+
+- #### You can find the development notes and process on our Notion page: [Development Notion Page](https://fishy-mammal-3dc.notion.site/99e5d0c534924514b162c76193664544)
+</br>
+
+----
+<h2 id="1">
+    <b>📌 Technologies, Libraries, and tools Used</b>
+</h2>
+
+- `Java`, `Spring Legacy`
+- `MySQL`
+- `HTML`, `CSS`, `JavaScript`, `BootStrap`
+- `Naver Cloud`, `Ubuntu`, `Apache Tomcat`
+- `Eclipse`, `SourceTree`, `Gihub`, `Slack`, `Notion`
+</br>
+
+----
+<h2 id="2">
+    <b>📌 Key Features</b>
+</h2>
+
+- Display nearby pet-related places and create walking meetups based on location data from Kakao Map
+- Search for places by category using predefined keywords
+- Provide the service as a responsive web, eliminating the need for a separate smartphone app installation
+</br>
+
+----
+<h2 id="3">
+    <b>📌 ER Diagram</b>
+</h2>
+
+![ER다이어그램](https://github.com/user-attachments/assets/583e4bc5-4f83-4837-93c7-3014bc785031)
+<br/>
+
+----
+<h2 id="4">
+    <b>📌 My Role</b>
+</h2>
+
+##### Backend
+- Database design
+- Implement main page output using Kakao Map API
+- CRUD operations for user/dog profiles, community board, and comment functionality
+- Deployment on Tomcat server
+##### Frontend
+- Ensured the platform is responsive and works across various screen sizes and devices
+- Login / Signup / User profile / Community board Page view
+
+<br/>
+
+----
+<h2 id="5">
+    <b>📌 Overview of Key Pages</b>
+</h2>
+
+### Home
+<img width="1216" alt="소셜독 메인 페이지" src="https://github.com/user-attachments/assets/8fddfb3f-8b88-46b7-afa6-0ca0a7373dd9">
+
+- Users can easily see and explore the various features of SocialDog at a glance.
+- The screen also displays banner ads and community-related content to engage users.
+- To fully access all features and services, users must log in.
+<br/>
+
+<details>
+	<summary>👇(Click to expand) Create and View Walking Meetups</summary>
+  	<div markdown="1">
+      <img width="1208" alt="산책하기 메인 페이지" src="https://github.com/user-attachments/assets/2295cc4a-12f1-43cb-9330-8319195fb667">
+  	</div>
+
+  - Users can view meetups created by other users near your location.
+  - Users can create new walking meetups or join those created by other users.
+  - Users can write reviews for locations, helping users decide if it's a good spot for walking.
+</details>
+
+<details>
+	<summary>👇(Click to expand) Meetup Detail</summary>
+  	<div markdown="1">
+      <img width="1211" alt="약속페잊" src="https://github.com/user-attachments/assets/65f7166b-239b-4964-8779-6db21d43001b">
+  	</div>
+
+  - Users can check the details of the meetup, including the location, time, participants, and meetup description.
+</details>
+
+<details>
+	<summary>👇(Click to expand) My meetup</summary>
+  	<div markdown="1">
+      <img width="1210" alt="나의 약속 페이지" src="https://github.com/user-attachments/assets/7154d6b9-9c9e-4644-a6d9-749b5f69aba8">
+  	</div>
+  
+  - Users can check the list of meetups they are currently participating in.
+  - Users can access a history of past meetups they've either participated in or organized.
+</details>
+
+<details>
+	<summary>👇(Click to expand) Community and Announcements Board</summary>
+  	<div markdown="1">
+      <img width="913" alt="image" src="https://github.com/user-attachments/assets/1947d52a-51d8-4a1b-ba59-bf9212933e4f">
+      <img width="1048" alt="커뮤니티 디테일" src="https://github.com/user-attachments/assets/ed8358f6-786c-4927-b3ea-9d7b72627dad">
+  	</div>
+  
+  - Users can communicate with other users in the community.
+  - Users can find important service updates and guidelines in the Announcements.
+</details>
+
+<details>
+	<summary>👇(Click to expand) My Profile</summary>
+  	<div markdown="1">
+      <img width="1216" alt="마이페이지" src="https://github.com/user-attachments/assets/19882f24-89f5-4613-b272-e09d5564c2fe">
+  	</div>
+  
+  - Users can add, edit, or delete information related to users or dogs.
+  - Users can change their password.
+</details>
+<br/>
 
 
-
-## 🚀 서비스 소개
-
-####  필요성
-
-> 매년 반려견을 가족의 일원으로서 함께하는 인구가 지속적으로 증가하고 있습니다.
-> 
-> 하지만, 이웃 반려견을 만나 사회성을 기르는데 현실적인 어려움이 있습니다.
-> 
-> 그래서 반려견이 이웃 반려견과 만나 사회성을 기르고,
-> 더 나아가 이웃 사람들과의 소통을 할 수 있는 플랫폼이 필요합니다.
-
-#### 위치 정보 기반 산책 약속 플랫폼, SocialDog
-
-#####  SocialDog에서 이웃 강아지와 산책 약속을 잡고 함께 산책을 해보세요!
-
-- Kakao Map의 위치 정보를 기반으로 주변 반려견 관련 장소 표시 및 산책 약속 생성
-- 정해진 키워드로 카테고리 단위 장소 검색
-- 반응형 웹으로 서비스를 제공하여 별도 스마트폰 앱 설치 불필요
-
-
-
-## 🧰 기술 스택
-
-- 협업 도구
-<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
-<img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white">
-<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
-
-- 서버 관리
-<img src="https://img.shields.io/badge/NAVER%20Cloud-03C75A?style=for-the-badge&logo=naver&logoColor=white">
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white">
-<img src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?logo=apachetomcat&logoColor=000&style=for-the-badge">
-
-- 백엔드
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
-<img src="https://img.shields.io/badge/Let's%20Encrypt-003A70?logo=letsencrypt&logoColor=fff&style=for-the-badge">
-
-- 프론트엔드
-<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
-<img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
-
-- 활용 API
-<img src="https://img.shields.io/badge/kakao%20developers-ffcd00.svg?style=for-the-badge&logo=kakaotalk&logoColor=000000">
-
-
-
-## 🧭 주요 페이지 안내
-
-### 홈
-*******************************************************************************
-![README_-_홈_화면](https://github.com/Jackpot-MC/Social-dog/assets/141387585/67ffab28-51fb-4c26-8e70-b68b59a048a2)
-- SocialDog 접속할 때 처음으로 보이는 서비스 초기 화면입니다.
-- SocialDog의 서비스를 한 눈에 확인할 수 있습니다.
-- 배너 광고나 커뮤니티 관련 콘텐츠가 표시됩니다. 
-- 모든 서비스를 정상적으로 이용하려면 로그인을 해야합니다.
-
-### 나의약속
-*******************************************************************************
-![README_-_산책하기](https://github.com/Jackpot-MC/Social-dog/assets/141387585/c54871ea-fc94-49f1-b2b3-3c7241858df6)
-- 내가 참여하고 있는 약속 리스트를 확인할 수 있습니다.
-- 본인이 주최자일 경우 약속을 삭제하거나 수정할 수 있습니다.
-- 약속 참가자일 경우 약속에 참가하거나 취소를 할 수 있습니다.
-- 과거에 참가하거나 주최한 약속을 조회할 수 있습니다.
-
-### 커뮤니티 및 공지사항
-*******************************************************************************
-![README_-_커뮤니티](https://github.com/Jackpot-MC/Social-dog/assets/141387585/dcfcb0cf-69ff-423a-9c7c-64c4309d9601)
-- 커뮤니티에서 사용자 간 소통을 할 수 있습니다.
-- 공지사항에서 서비스 이용 관련 안내를 확인할 수 있습니다.
-
-### 마이페이지
-*******************************************************************************
-![README_-_마이페이지](https://github.com/Jackpot-MC/Social-dog/assets/141387585/390c2974-d185-46cc-9378-519b6135f8ea)
-- 사용자나 강아지에 관련된 정보를 추가하거나 수정 및 삭제할 수 있습니다.
-
-
-
-## 🔧 향후 보완점
-
-### 장소 정보로 리스트 출력
-- Kakao Map API에서 장소 정보 수령 **성공!**
-- 장소 정보 DB 입력 **성공!**
-- 페이지에서 Kakao Map 장소 ID와 DB 장소 ID 조건 비교 후 리스트 출력 *진행 중...*
-
-### 전국 단위 검색 적용(클러스터러 기능 활용)
-- 현재 내 위치 기준 키워드 및 카테고리 검색만 가능
-- 클러스터러는 적용되었으나 카테고리 검색 결과에 적용하지 못함
-- 전국 단위 검색 적용을 하면 제공할 수 있는 서비스 범위 확장 가능
-
-### 산책 경로 실시간 기록
-- Kakao Map에서 위치 정보를 기반으로 위도 및 경도를 받아 산책 경로 기록 가능
-- 산책 경로 기록 기능을 통해 산책 서비스의 핵심 목표를 강화할 수 있음 
-- 위치 정보 기반 각 고객에 맞춤 광고 제공을 하여 수익 극대화 도모 가능
-
-
-
-## ⌛ 프로젝트 기간
-
-### 23.10.31 ~ 22.12.08
-
-
-
-## 🎰 팀 잭팟
-
-- [**김영훈(팀장)**](https://github.com/arcticPeng93)
-- [**박보헌**](https://github.com/Boheon)
-- [**서영아**](https://github.com/syasyass)
-- [**유민지**](https://github.com/mjyoo0353)
-- [**하민우**](https://github.com/minwoo76430635)
